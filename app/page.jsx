@@ -8,7 +8,6 @@ import Rules from "../components/Rules";
 import FAQ from "../components/FAQ";
 import RSVP from "../components/RSVP";
 import Story from "../components/Story";
-import Gallery from "../components/Gallery";
 import Party from "../components/Party";
 import Children from "../components/Children";
 import Footer from "../components/Footer";
@@ -24,13 +23,19 @@ export default function Page() {
       <Couple />
       <Programme />
       <Dress />
-      <Rules />
       <FAQ />
-      <RSVP />
       <Story />
-      <Gallery />
       <Party />
+      <RSVP />
+      <section className="gallery">
+        <img
+          className="gallery-photo"
+          src="/photos/gallery-hero.webp"
+          alt="Brynne and Thama"
+        />
+      </section>
       <Children />
+      <Rules />
       <Footer />
     </>
   );

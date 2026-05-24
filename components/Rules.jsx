@@ -65,7 +65,7 @@ export default function Rules() {
               Children under 12 <em>must be supervised</em> at all times.
             </div>
             <p className="rule-body">
-              See the children's section below for the full setup — including
+              See the children's section above for the full setup — including
               the dedicated kid's room with babysitters.
             </p>
           </div>
