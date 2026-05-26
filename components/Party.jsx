@@ -1,7 +1,7 @@
 const MEMBERS = [
   { role: "Sister of the Groom", name: "Amy Reynolds", photo: "/photos/amy.jpg" },
   { role: "Best Man", name: "Paul Theron", photo: "/photos/paul.jpg", objectPosition: "55% center" },
-  { role: "Best Woman", name: "Candice Theron", photo: "/photos/candice.jpg", zoom: 1.4, transformOrigin: "center bottom" },
+  { role: "Best Woman", name: "Candice Theron", photo: "/photos/candice.jpg", zoom: 1.3, objectPosition: "center 30%" },
   { role: "Maid of Honour", name: "Cindy Ju", photo: "/photos/cindy.jpg", objectPosition: "70% center" },
   { role: "Brother of the Bride", name: "Phumudzo Tshigabe", photo: "/photos/phumudzo.jpg", objectPosition: "85% center" },
 ];
