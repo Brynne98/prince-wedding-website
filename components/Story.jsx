@@ -7,7 +7,7 @@ const ITEMS = [
         <em>First</em> conversation
       </>
     ),
-    body: "Eternity beckoned.",
+    body: "Eternity beckoned…",
   },
   {
     side: "right",
@@ -63,7 +63,7 @@ export default function Story() {
           <em>got here</em>.
         </h2>
         <p className="story-intro">
-          Four years in the making — a few first messages, a first nervous date,
+          Four years in the making — a few first messages, a nervous first date,
           and the kind of yes that changes everything.
         </p>
       </div>

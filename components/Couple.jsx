@@ -4,7 +4,7 @@ export default function Couple() {
       <div className="section-head" style={{ textAlign: "center" }}>
         <span className="mono-eyebrow">Meet the Couple</span>
         <h2 style={{ marginTop: 16 }}>
-          A <em>doctor</em>, an <em>engineer</em>,
+          A <em>doctor</em>, a <em>developer</em>,
           <br />
           and an awful lot of love.
         </h2>
@@ -17,13 +17,13 @@ export default function Couple() {
             </div>
             <dl className="person-meta">
               <dt>Role</dt>
-              <dd>The Groom</dd>
+              <dd>The groom</dd>
               <dt>Age</dt>
               <dd>28</dd>
               <dt>Work</dt>
-              <dd>Software Engineer</dd>
+              <dd>Software developer</dd>
               <dt>Loves</dt>
-              <dd>coffee &amp; gaming</dd>
+              <dd>Coffee &amp; gaming</dd>
             </dl>
           </div>
         </div>
@@ -34,13 +34,13 @@ export default function Couple() {
             </div>
             <dl className="person-meta">
               <dt>Role</dt>
-              <dd>The Bride</dd>
+              <dd>The bride</dd>
               <dt>Age</dt>
               <dd>26</dd>
               <dt>Work</dt>
-              <dd>Medical Doctor</dd>
+              <dd>Medical doctor</dd>
               <dt>Loves</dt>
-              <dd>tea &amp; reading</dd>
+              <dd>Tea &amp; reading</dd>
             </dl>
           </div>
         </div>

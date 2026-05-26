@@ -1,9 +1,9 @@
 const MEMBERS = [
-  { role: "Sister of the Bride", name: "Amy Reynolds", photo: "/photos/party-1.webp" },
-  { role: "Best Man", name: "Paul Theron", photo: "/photos/party-2.webp" },
-  { role: "Best Woman", name: "Candice Theron", photo: "/photos/party-3.webp" },
-  { role: "Maid of Honour", name: "Cindy Ju", photo: "/photos/party-4.webp" },
-  { role: "Brother of the Groom", name: "Phumudzo Tshigabe", photo: "/photos/party-5.webp" },
+  { role: "Sister of the Groom", name: "Amy Reynolds", photo: "/photos/amy.jpg" },
+  { role: "Best Man", name: "Paul Theron", photo: "/photos/paul.jpg", objectPosition: "55% center" },
+  { role: "Best Woman", name: "Candice Theron", photo: "/photos/candice.jpg", zoom: 1.4, transformOrigin: "center bottom" },
+  { role: "Maid of Honour", name: "Cindy Ju", photo: "/photos/cindy.jpg", objectPosition: "70% center" },
+  { role: "Brother of the Bride", name: "Phumudzo Tshigabe", photo: "/photos/phumudzo.jpg", objectPosition: "85% center" },
 ];
 
 export default function Party() {
@@ -21,7 +21,18 @@ export default function Party() {
       <div className="party-grid">
         {MEMBERS.map((m) => (
           <div className="party-card" key={m.name}>
-            <img className="party-photo" src={m.photo} alt={m.name} />
+            <div className="party-photo-frame">
+              <img
+                className="party-photo"
+                src={m.photo}
+                alt={m.name}
+                style={{
+                  objectPosition: m.objectPosition,
+                  transform: m.zoom ? `scale(${m.zoom})` : undefined,
+                  transformOrigin: m.transformOrigin,
+                }}
+              />
+            </div>
             <div>
               <span className="role">{m.role}</span>
               <h3>{m.name}</h3>

@@ -260,9 +260,10 @@ section.dark .mono-label { color: rgba(237, 228, 211, 0.55); }
 .person { display: flex; flex-direction: column; gap: 24px; }
 .person-meta {
   display: grid; grid-template-columns: auto 1fr; gap: 8px 24px;
+  align-items: baseline;
   font-size: 14px; padding-top: 12px;
 }
-.person-meta dt { font-family: var(--mono); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--brass); padding-top: 4px; }
+.person-meta dt { font-family: var(--mono); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--brass); }
 .person-meta dd { font-family: var(--serif); font-size: 20px; }
 .person-name {
   font-family: var(--serif); font-size: clamp(36px, 4vw, 56px); font-weight: 300; line-height: 1;
@@ -340,9 +341,13 @@ section.dark .mono-label { color: rgba(237, 228, 211, 0.55); }
 }
 .party .section-head h2 em { font-style: italic; color: var(--brass-bright); }
 .party-card { display: flex; flex-direction: column; gap: 16px; }
+.party-photo-frame {
+  width: 100%; aspect-ratio: 3/4; min-height: 240px;
+  overflow: hidden; border-radius: 6px;
+}
 .party-card .party-photo {
-  width: 100%; aspect-ratio: 3/4; height: auto; min-height: 240px;
-  object-fit: cover; border-radius: 6px; display: block;
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
 }
 .party-card h3 {
   font-family: var(--serif); font-size: 22px; font-weight: 400; line-height: 1.1; font-style: italic;

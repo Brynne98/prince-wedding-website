@@ -30,8 +30,9 @@ export default function Page() {
       <section className="gallery">
         <img
           className="gallery-photo"
-          src="/photos/gallery-hero.webp"
+          src="/photos/banner.jpg"
           alt="Brynne and Thama"
+          style={{ objectPosition: "70% center" }}
         />
       </section>
       <Children />

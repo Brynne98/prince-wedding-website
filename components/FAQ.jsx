@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 const ITEMS = [
   {
     q: "Can I bring my kids?",
-    a: "All children under 16 of those invited are welcome. Please see the Children's section above for everything about the kid's room and how the day works for them.",
+    a: "All children under 16 of those invited are welcome. Please see the Children's section below for everything about the kid's room and how the day works for them.",
   },
   {
     q: "Can I bring another person?",
@@ -23,7 +23,7 @@ const ITEMS = [
     a: (
       <>
         Please RSVP no later than <strong>1 August 2026</strong>. The Google
-        Form link is just below — it takes about a minute.
+        Form link is below — it takes about a minute.
       </>
     ),
   },
