@@ -12,6 +12,13 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   const handleAnchor = (e) => {
     const a = e.target.closest('a[href^="#"]');
     if (!a) return;
