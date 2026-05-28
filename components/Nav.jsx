@@ -32,7 +32,11 @@ export default function Nav() {
   };
 
   return (
-    <nav className={`nav${scrolled ? " scrolled" : ""}`} id="nav" onClick={handleAnchor}>
+    <nav
+      className={`nav${scrolled ? " scrolled" : ""}${open ? " menu-open" : ""}`}
+      id="nav"
+      onClick={handleAnchor}
+    >
       <a href="#top" className="nav-mono">
         20 September 2026
       </a>
