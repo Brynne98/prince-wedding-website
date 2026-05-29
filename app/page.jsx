@@ -35,8 +35,8 @@ export default function Page() {
           style={{ objectPosition: "70% center" }}
         />
       </section>
-      <Children />
       <Rules />
+      <Children />
       <Footer />
     </>
   );

@@ -1,11 +1,11 @@
 const ROWS = [
-  { time: "16:00", title: <>Guest <em>arrival</em></>, note: "Check-in" },
-  { time: "16:30", title: <>Gate <em>closure</em></>, note: "Be seated" },
-  { time: "17:00", title: <>The <em>ceremony</em></>, note: "The big moment" },
+  { time: "15:30", title: <>Guest <em>arrival</em></>, note: "Check-in" },
+  { time: "16:00", title: <>Gate <em>closure</em></>, note: "Be seated" },
+  { time: "16:30", title: <>The <em>ceremony</em></>, note: "The big moment" },
   { time: "17:30", title: <>Cocktail <em>hour</em></>, note: "Mocktails & canapés" },
   { time: "18:30", title: <><em>Reception</em></>, note: "Hall opens" },
   { time: "19:00", title: <><em>Dinner</em></>, note: "Served" },
-  { time: "23:00", title: <>The <em>last dance</em></>, note: "Until next time" },
+  { time: "23:00", title: <>The <em>last dance</em></>, note: "Until death do us part" },
 ];
 
 export default function Programme() {

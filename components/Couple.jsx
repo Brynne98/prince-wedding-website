@@ -22,6 +22,8 @@ export default function Couple() {
               <dd>28</dd>
               <dt>Work</dt>
               <dd>Software developer</dd>
+              <dt>Height</dt>
+              <dd>190cm</dd>
               <dt>Loves</dt>
               <dd>Coffee &amp; gaming</dd>
             </dl>
@@ -39,6 +41,8 @@ export default function Couple() {
               <dd>26</dd>
               <dt>Work</dt>
               <dd>Medical doctor</dd>
+              <dt>Height</dt>
+              <dd>150cm</dd>
               <dt>Loves</dt>
               <dd>Tea &amp; reading</dd>
             </dl>

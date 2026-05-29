@@ -13,7 +13,7 @@ export default function DetailsStrip() {
         <div className="detail-item">
           <span className="mono-label">Check‑in &amp; Ceremony</span>
           <div className="v">
-            16:00 <em>arrival</em>
+            15:30 <em>arrival</em>
             <br />
             16:30 <em>ceremony</em>
           </div>

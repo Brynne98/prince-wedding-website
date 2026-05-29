@@ -15,10 +15,6 @@ const ITEMS = [
     a: "Yes. Entrances and restrooms are wheelchair-accessible. Please contact us in advance and we will make any necessary arrangements to support you.",
   },
   {
-    q: "What should I bring?",
-    a: "Comfortable shoes and an empty stomach! While all wedding gifts would be appreciated, we do not expect any gifts so please do not feel pressured to bring anything.",
-  },
-  {
     q: "When do I need to RSVP by?",
     a: (
       <>

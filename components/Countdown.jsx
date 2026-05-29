@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const TARGET = new Date("2026-09-20T16:00:00+02:00").getTime();
+const TARGET = new Date("2026-09-20T15:30:00+02:00").getTime();
 const pad = (n) => String(Math.max(0, Math.floor(n))).padStart(2, "0");
 
 function compute() {
