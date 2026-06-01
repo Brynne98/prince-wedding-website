@@ -3,13 +3,13 @@ const BLOCKS = [
     h: "The Day, For Them",
     items: [
       "During the ceremony, children sit in the chapel next to their parents.",
-      "During cocktail hour, you will be directed to the kid's room to get your little ones settled.",
-      "During the reception, children under 12 are encouraged to stay, play and sleep in the kid's room — they may join the reception if escorted by a parent.",
-      "At the end of the evening, mothers may collect their children from the kid's room.",
+      "During cocktail hour, you will be directed to the children's room to get your little ones settled.",
+      "During the reception, children under 12 are encouraged to stay, play and sleep in the children's room — they may join the reception if escorted by a parent.",
+      "At the end of the evening, mothers may collect their children from the children's room.",
     ],
   },
   {
-    h: "The Kid's Room",
+    h: "The Children's Room",
     items: [
       "Single open room for children aged 1 to 12, with one door.",
       "Two trusted babysitters on duty for the entire event.",
@@ -19,7 +19,7 @@ const BLOCKS = [
     ],
   },
   {
-    h: "Rules of the Kid's Room",
+    h: "Rules of the Children's Room",
     items: [
       <>
         <strong>
@@ -28,14 +28,14 @@ const BLOCKS = [
         are permitted inside — non-negotiable, for the safety of the children.
       </>,
       "Mothers introduce themselves and leave contact details with the babysitters on drop-off.",
-      "No child may leave the kid's room without their mother — no other adult may collect a child at the end of the night.",
+      "No child may leave the children's room without their mother — no other adult may collect a child at the end of the night.",
       "Please label items you've brought from home for your child.",
     ],
   },
   {
     h: "Reminders",
     items: [
-      "Children under 12 must be supervised at all times. When not in the kid's room, they must stay in close proximity to parents.",
+      "Children under 12 must be supervised at all times. When not in the children's room, they must stay in close proximity to parents.",
       "Children may wear smart casual; no colour restrictions; please ensure they're neatly and comfortably dressed.",
       "Please pack a labelled diaper bag for any and all accidents.",
     ],

@@ -6,10 +6,7 @@ export default function RSVP() {
     <section className="rsvp" id="rsvp">
       <div className="section-head">
         <span className="mono-eyebrow">Will You Be There?</span>
-        <h2 style={{ color: "var(--ink)" }}>
-          <em style={{ color: "inherit" }}>R.</em>S
-          <em style={{ color: "inherit" }}>.V.</em>P
-        </h2>
+        <h2 style={{ color: "var(--ink)" }}>“RSVP”</h2>
         <div className="deadline">Kindly respond by 1 August 2026</div>
       </div>
 

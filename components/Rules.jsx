@@ -66,7 +66,7 @@ export default function Rules() {
             </div>
             <p className="rule-body">
               See the children's section above for the full setup — including
-              the dedicated kid's room with babysitters.
+              the dedicated children's room with babysitters.
             </p>
           </div>
         </div>
