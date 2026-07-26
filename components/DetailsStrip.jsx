@@ -15,7 +15,7 @@ export default function DetailsStrip() {
           <div className="v">
             15:30 <em>arrival</em>
             <br />
-            16:30 <em>ceremony</em>
+            16:00 <em>ceremony</em>
           </div>
         </div>
         <div className="detail-item">

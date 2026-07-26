@@ -3,7 +3,7 @@ const BLOCKS = [
     h: "The Day, For Them",
     items: [
       "During the ceremony, children sit in the chapel next to their parents.",
-      "During cocktail hour, you will be directed to the children's room to get your little ones settled.",
+      "During mocktail hour, you will be directed to the children's room to get your little ones settled.",
       "During the reception, children under 12 are encouraged to stay, play and sleep in the children's room — they may join the reception if escorted by a parent.",
       "At the end of the evening, mothers may collect their children from the children's room.",
     ],
